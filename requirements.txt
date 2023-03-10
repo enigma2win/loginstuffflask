@@ -79,7 +79,6 @@ grpcio-status
 gTTS
 gunicorn
 h11
-heroku
 htmlmin
 httpcore
 httplib2
