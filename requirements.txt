@@ -57,7 +57,7 @@ Flask-Dance
 Flask-Login
 Flask-Migrate
 Flask-Minify
-flask-restx=
+flask-restx
 Flask-SQLAlchemy
 Flask-Testing
 Flask-WTF
