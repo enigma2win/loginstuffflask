@@ -3,6 +3,7 @@
     "tailwindcss": "^3.2.7"
   },
   "dependencies": {
-    "tw-elements": "^1.0.0-beta1"
+    "tw-elements": "^1.0.0-beta1",
+    "vercel": "^28.16.15"
   }
 }
