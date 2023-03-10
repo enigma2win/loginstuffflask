@@ -11,6 +11,9 @@ import pandas as pd
 import numpy as np
 from dotenv import load_dotenv
 import os
+import sqlite3
+
+
 
 
 load_dotenv()
@@ -63,10 +66,16 @@ class LoginForm(FlaskForm):
 
     submit = SubmitField('Login')
 
+def get_db_connection():
+    conn = sqlite3.connect('database.db')
+    conn.row_factory = sqlite3.Row
+    return conn
+
 
 @app.route("/")
 @app.route("/index")
 def index():
+    
     return render_template("index.html")
 
 
